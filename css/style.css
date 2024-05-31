@@ -4,37 +4,50 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
 .container-full{
     max-width: 100%;
 }
 
 /* layout */
-
 .container{
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* header */
 header{
     height: 75px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
 
 .header-left, .header-right{
-    background-color: blueviolet;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    margin: 0 20px;
+}
+
+.header-left img{
+    margin-right: 20px;
+}
+
+.header-right button{
+    background-color: rgb(11, 184, 242);
+    color: white;
+    padding: 5px 10px;
+    border: none;
 }
 
 ul{
     list-style-type: none;
 }
 
-ul li{
+li{
     display: inline-block;
+    margin: 0 20px;
 }
 
 a{
