@@ -187,19 +187,21 @@ ul hr{
 }
 
 .mt-35{
-    background-color: aqua;
     margin-top: 35px;
 }
 
-.bg-pink{
-    background-color: blueviolet;
-    height: 500px;
+.content{
+    margin-bottom: 15%;
 }
 
-.content{
-    background-color: brown;
-    height: 200px;
-    margin-bottom: 15%;
+.partner button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-full{
+    width: 100%;
 }
 
 
