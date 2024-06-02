@@ -244,7 +244,16 @@ ul hr{
     margin: 70px 0 40px 0;
 }
 
-.faq{
-    background-color: blueviolet;
-    height: 500px;
+ul.faq > li{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.faq i{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.faq hr{
+    width: 100%;
 }
