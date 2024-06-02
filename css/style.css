@@ -41,9 +41,7 @@ body{
 }
 
 .col-33{
-    width: calc(100% / 3);
-    background-color: aqua;
-    height: 200px;
+    width: calc(90% / 3);
 }
 
 /* header */
@@ -87,7 +85,12 @@ a{
 
 h1{
     font-size: 60px;
-    padding: 40px 0;
+    margin: 40px 0;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .jumbo{
@@ -107,6 +110,32 @@ button{
 /* specifics */
 
 .m-arrow{
-    margin: 70px 0 30px 0;
+    margin: 60px 0 30px 0;
 }
+
+.gap-5{
+    gap: 5%;
+}
+
+.mt-40{
+    margin-top: 50px;
+    height: 500px;
+}
+
+.mt-130{
+    margin-top: 130px;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.h-700{
+    height: 700px;
+}
+
+.h-200{
+    height: 200px;
+}
+
 
