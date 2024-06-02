@@ -52,6 +52,10 @@ body{
     width: 58%;
 }
 
+.col-33-full{
+    width: calc(100% / 3);
+    background-color: blueviolet;
+}
 /* header */
 header{
     height: 75px;
@@ -172,7 +176,6 @@ ul hr{
 .border{
     border: 1px solid lightgray;
     border-collapse: collapse;
-    height: ;
 }
 
 .enterprise{
@@ -204,4 +207,44 @@ ul hr{
     width: 100%;
 }
 
+.client-logo-big{
+    background-color: rgb(64, 43, 226);
+    height: calc(100vw / 3);
+}
 
+.client-logo{
+    height: calc(50vw / 3);
+    width: calc(50vw / 3);
+}
+
+.col-50{
+    width: 50%;
+}
+.text-right{
+    text-align: center;
+}
+
+.text-red{
+    color: red;
+}
+
+.m-70{
+    margin: 90px 0;
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+    margin-bottom: 0px;
+    font-size: 15px;
+    padding: 10px 40px;
+}
+
+.m-50{
+    margin: 70px 0 40px 0;
+}
+
+.faq{
+    background-color: blueviolet;
+    height: 500px;
+}
