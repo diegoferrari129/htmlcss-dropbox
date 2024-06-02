@@ -44,6 +44,14 @@ body{
     width: calc(90% / 3);
 }
 
+.col-32{
+    width: 32%;
+}
+
+.col-58{
+    width: 58%;
+}
+
 /* header */
 header{
     height: 75px;
@@ -177,3 +185,21 @@ ul hr{
     margin: 50px 25px 25px 0;
     font-size: 14px;
 }
+
+.mt-35{
+    background-color: aqua;
+    margin-top: 35px;
+}
+
+.bg-pink{
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.content{
+    background-color: brown;
+    height: 200px;
+    margin-bottom: 15%;
+}
+
+
