@@ -220,6 +220,11 @@ ul hr{
 .col-50{
     width: 50%;
 }
+
+.col-25{
+    width: calc(100% / 5);
+}
+
 .text-right{
     text-align: center;
 }
@@ -256,4 +261,45 @@ ul.faq i{
 
 ul.faq hr{
     width: 100%;
+}
+
+
+
+.info{
+    margin: 110px 15px;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.title-info{
+    font-size: 21px;
+}
+
+.info li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer hr{
+    color: white;
+    size: 1px;
+    width: 15%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.lang{
+    padding: 50px 0;
+}
+
+.lang i{
+    padding: 0 5px;
 }
