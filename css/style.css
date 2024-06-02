@@ -61,7 +61,7 @@ header{
     margin-right: 20px;
 }
 
- .header-right button{
+.header-right button{
     padding: 7px 13px;
 }
 
@@ -74,7 +74,7 @@ li{
     margin: 0 20px;
 }
 
-a{
+header a{
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ h2{
 }
 
 button{
-    background-color: rgb(11, 184, 242);
+    background-color: #0b81ef;
     color: white;
     margin: 25px 0;
     padding: 10px 13px;
@@ -117,25 +117,63 @@ button{
     gap: 5%;
 }
 
-.mt-40{
-    margin-top: 50px;
-    height: 500px;
-}
+/* utility */
 
 .mt-130{
     margin-top: 130px;
 }
 
-.bg-brown{
-    background-color: brown;
+.plan-icons{
+    display: flex;
+    margin: 10px 0;
+    font-size: 14px;
 }
 
-.h-700{
-    height: 700px;
+.plan-icons > span{
+    margin-left: 5px;
 }
 
-.h-200{
-    height: 200px;
+h3{
+    padding: 30px 0 20px 0;
 }
 
+ul button{
+    text-align: center;
+    padding: 12px 30px;
+}
 
+.plan-title{
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.plan-time{
+    color: lightgray;
+    padding: 10px 0 30px 0;
+}
+
+ul hr{
+    width: 20%;
+    margin: 37px 20px;
+    color: lightgray;
+}
+
+.border{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    height: ;
+}
+
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.enterprise p{
+    margin: 50px 25px 25px 0;
+    font-size: 14px;
+}
