@@ -12,7 +12,7 @@ body{
     max-width: 100%;
 }
 
-/* layout */
+/* LAYOUT */
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -54,167 +54,8 @@ body{
 
 .col-33-full{
     width: calc(100% / 3);
-    background-color: blueviolet;
-}
-/* header */
-header{
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-left, .header-right{
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-}
-
-.header-left img{
-    margin-right: 20px;
-}
-
-.header-right button{
-    padding: 7px 13px;
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    display: inline-block;
-    margin: 0 20px;
-}
-
-header a{
-    text-decoration: none;
-}
-
-/* style */
-.bg-lightblue{
-    background-color: lightblue;
-}
-
-h1{
-    font-size: 60px;
-    margin: 40px 0;
-}
-
-h2{
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-
-.jumbo{
-    width: 720px;
-    position: absolute;
-}
-
-button{
-    background-color: #0b81ef;
-    color: white;
-    margin: 25px 0;
-    padding: 10px 13px;
-    font-size: 15px;
-    border: none;
-}
-
-/* specifics */
-
-.m-arrow{
-    margin: 60px 0 30px 0;
-}
-
-.gap-5{
-    gap: 5%;
-}
-
-/* utility */
-
-.mt-130{
-    margin-top: 130px;
-}
-
-.plan-icons{
-    display: flex;
-    margin: 10px 0;
-    font-size: 14px;
-}
-
-.plan-icons > span{
-    margin-left: 5px;
-}
-
-h3{
-    padding: 30px 0 20px 0;
-}
-
-ul button{
-    text-align: center;
-    padding: 12px 30px;
-}
-
-.plan-title{
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    border: 1px solid lightgray;
-    border-collapse: collapse;
-}
-
-.plan-time{
-    color: lightgray;
-    padding: 10px 0 30px 0;
-}
-
-ul hr{
-    width: 20%;
-    margin: 37px 20px;
-    color: lightgray;
-}
-
-.border{
-    border: 1px solid lightgray;
-    border-collapse: collapse;
-}
-
-.enterprise{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 25px;
-}
-
-.enterprise p{
-    margin: 50px 25px 25px 0;
-    font-size: 14px;
-}
-
-.mt-35{
-    margin-top: 35px;
-}
-
-.content{
-    margin-bottom: 15%;
-}
-
-.partner button{
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.w-full{
-    width: 100%;
-}
-
-.client-logo-big{
-    background-color: rgb(64, 43, 226);
     height: calc(100vw / 3);
-}
-
-.client-logo{
-    height: calc(50vw / 3);
-    width: calc(50vw / 3);
+    background-color: blueviolet;
 }
 
 .col-50{
@@ -225,8 +66,291 @@ ul hr{
     width: calc(100% / 5);
 }
 
+/* HEADER */
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    margin-right: 20px;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.header_list_item {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* UTILITY */
+
+.header_list, .card_list{
+    list-style-type: none;
+}
+
+.header_list_item, .card_list_item, a{
+    text-decoration: none;
+}
+
+.card_title--size{
+    font-size: 300%;
+}
+
+.features-title-size{
+    font-size: 220%;
+}
+
+.gap-5{
+    gap: 5%;
+}
+
+.mt-15{
+    margin-top: 15%;
+}
+
+.mb-5{
+    margin-bottom: 5%;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.mt-8{
+    margin-top: 8%;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.d-inline_block{
+    display: inline;
+}
+
+.p-margin{
+    margin: 8% 0 14% 0;
+}
+
+/* BUTTON */
+
+.button{
+    background-color: #0b81ef;
+    color: white;
+    padding: 10px 13px;
+    font-size: 15px;
+    border: none;
+}
+
+.button_menu--padding{
+    padding: 7px 13px;
+}
+
+.button_jumbo--margin {
+    margin: 10% 0;
+}
+
+.button_card_list{
+    padding: 3% 14%;
+    font-size: 86%;
+    margin: 10% 0 5% 0;
+}
+
+.button--secondary{
+    color: black;
+    background-color: white;
+    margin: 10% 0;
+    border: 1px solid black;
+}
+
+/* JUMBO */
+
+h1{
+    font-size: 400%;
+    margin: 7% 0 4% 0;
+}
+
+.jumbo_background--color{
+    background-color: lightblue;
+}
+
+.jumbo_img{
+    width: 49%;
+    position: absolute;
+}
+
+.jumbo_icon--margin{
+    margin: 60px 0 30px 0;
+}
+
+/* CARD */
+
+.card{
+    margin-top: 9%;
+    font-size: 86%;
+}
+
+.card_input_radio{
+    display: inline-block;
+    margin: 6% 4% 0 0;
+}
+
+.card_i-center{
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    font-size: 86%;
+}
+
+.card_list{
+    margin-top: 8%;
+}
+
+.card_list_div--color{
+    color: lightgray;
+    margin-bottom: 10%;
+}
+
+.card_list_icons{
+    padding-right: 2%;
+}
+
+.card_list_item{
+    display: flex;
+    padding: 3% 12%;
+    font-size: 86%;
+}
+
+.card_button-center{
+    text-align: center;
+}
+
+.card_list_hr{
+    width: 17%;
+    margin: 10% 0 10% 6%;
+}
+
+.card_list--border{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    min-height: 100%
+}
+
+/* ENTERPRISE */
+.enterprise{
+    margin-top: 5%;
+}
+
+.enterprise_contact{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    font-size: 86%;
+}
+
+.enterprise-left{
+    padding: 3% 0 0 3%;
+}
+
+.enterprise-right{
+    padding: 3% 3% 0 0;
+}
+
+.enterprise_h4{
+    margin: 5% 0 10% 0;
+}
+
+.enterprise p{
+    margin: 50px 25px 25px 0;
+    font-size: 100%;
+}
+
+.logo-clients{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.client-logo{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.col-33-full img{
+    width: 50%;
+}
+
+.h-50{
+    height: 25%;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-darkblue{
+    background-color: darkblue;
+}
+
+.bg-darkred{
+    background-color: rgb(207, 9, 9);
+}
+
+.bg-lightred{
+    background-color: lightcoral;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+    border: 15px solid beige;
+}
+
+.bg-sky{
+    background-color: skyblue;
+}
+
 .text-right{
     text-align: center;
+}
+
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+
+.logo-big{
+    padding: 10%;
+}
+
+.py-top{
+    padding-top: 10%;
+}
+
+.m-bot{
+    margin-bottom: 15%;
+}
+
+.clients_hr{
+    width: 20%;
+    margin: 8% 0 6% 0;
 }
 
 .text-red{
@@ -237,33 +361,20 @@ ul hr{
     margin: 90px 0;
 }
 
-.btn-white{
-    color: black;
-    background-color: white;
-    margin-bottom: 0px;
-    font-size: 15px;
-    padding: 10px 40px;
-}
-
 .m-50{
     margin: 70px 0 40px 0;
 }
 
 ul.faq > li{
     display: flex;
-    flex-direction: column;
+    padding: 3% 0;
+    justify-content: space-between;
 }
 
-ul.faq i{
-    display: flex;
-    justify-content: flex-end;
-}
 
 ul.faq hr{
     width: 100%;
 }
-
-
 
 .info{
     margin: 110px 15px;
@@ -285,6 +396,10 @@ ul.faq hr{
     margin-bottom: 15px;
 }
 
+.fs-86{
+    font-size: 86%;
+}
+
 footer hr{
     color: white;
     size: 1px;
@@ -294,6 +409,7 @@ footer hr{
 footer{
     background-color: black;
     color: white;
+    font-size: 86%;
 }
 
 .lang{
